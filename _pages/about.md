@@ -2,33 +2,35 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: AI Engineer @ <a href='https://www.groupeonepoint.com/en/'>Onepoint</a> | ML Researcher
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Lyon, France</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  scrollable: true
+  limit: 5
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
+  scrollable: true
+  limit: 3
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am an AI Engineer at [Onepoint](https://www.groupeonepoint.com/en/), currently embedded at [L'Oreal](https://www.loreal.com/) where I develop **MCP servers** and **AI agents** as part of the Agentic Studio, deploying production systems on **Google Cloud Platform**.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Previously, I worked as an **ML Engineer at Telecom Paris** (ADASP Group), where I designed a self-supervised distillation framework for audio foundation models, achieving **61x model compression with 96.4% performance retention**. This work led to a first-author paper accepted at **ICASSP 2026**.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Before that, I was a **Data Scientist at Lawrence Berkeley National Laboratory (LBNL)** in California, where I built end-to-end predictive ML pipelines on a 272M-row spatio-temporal dataset for urban traffic emission modeling. I was awarded a **$10,000 Excellence Fellowship** and published a first-author paper at **IEEE Big Data 2024**.
+
+I hold a **Diplome d'Ingenieur (EECS) from INSA Lyon** and an **MSc in Machine Learning from Universite Lyon II**. I also spent a semester at **Carlos III University, Madrid** through the Erasmus program.
+
+My interests span **deep learning, AI agents, audio ML, MLOps, and scalable data-driven systems**.
