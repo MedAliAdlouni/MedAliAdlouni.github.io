@@ -6,7 +6,7 @@ subtitle: AI Engineer @ <a href='https://www.groupeonepoint.com/en/'>Onepoint</a
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.png
   image_circular: false
   more_info: >
     <p>Lyon, France</p>
@@ -20,7 +20,7 @@ announcements:
   limit: 5
 
 latest_posts:
-  enabled: false
+  enabled: true
   scrollable: true
   limit: 3
 ---
