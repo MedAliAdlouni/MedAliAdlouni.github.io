@@ -1,10 +1,8 @@
 cv:
   name: Mohammed Ali El Adlouni
-  label: AI Engineer & ML Researcher
-  email: medaliadlouni@gmail.com
   location: Lyon, France
-  image: ""
-  summary: AI Engineer building MCP servers and AI agents at L'Oreal via Onepoint. Published ML researcher with work at ICASSP and IEEE Big Data. INSA Lyon engineer with experience spanning audio ML, traffic emission modeling, and computer vision.
+  email: medaliadlouni@gmail.com
+  website: https://MedAliAdlouni.github.io
 
   social_networks:
     - network: GitHub
@@ -17,29 +15,29 @@ cv:
       - institution: Universite Lyon II
         location: Lyon, France
         area: Machine Learning
-        studyType: MSc
-        start_date: 2024
-        end_date: 2025
+        degree: MSc
+        start_date: 2024-09
+        end_date: 2025-08
         highlights:
-          - "Courses: Optimization, Ensemble Methods, Manifold Learning, Deep Learning, NLP, Big Data, Interpretability"
+          - "Optimization, Ensemble Methods, Manifold Learning, Deep Learning, NLP, Big Data, Interpretability"
           - "Completed 10+ end-to-end data science and machine learning projects"
 
       - institution: INSA Lyon
         location: Lyon, France
         area: Electrical Engineering & Computer Science
-        studyType: "Diplome d'Ingenieur"
-        start_date: 2019
-        end_date: 2024
+        degree: "Diplome d'Ingenieur"
+        start_date: 2019-09
+        end_date: 2024-06
         highlights:
           - "Computer Science, Applied Mathematics, Data Science, and Electrical Engineering"
-          - "Strong foundations in probability, statistics, optimization, algorithms, and distributed systems"
+          - "Probability, statistics, optimization, algorithms, and distributed systems"
 
       - institution: Carlos III University (Erasmus)
         location: Madrid, Spain
         area: Computer Vision, AI, Robotics
-        studyType: MSc Exchange
-        start_date: 2023
-        end_date: 2024
+        degree: MSc Exchange
+        start_date: 2023-09
+        end_date: 2024-01
         highlights:
           - "Computer vision, audio analysis, robotics, quantum computing, and AI applications"
 
@@ -47,11 +45,10 @@ cv:
       - company: Onepoint (at L'Oreal)
         position: AI Engineer
         location: Paris, France
-        start_date: 2025
+        start_date: 2025-10
         end_date: present
-        summary: Developing MCP servers and AI agents for L'Oreal's Agentic Studio, deploying production systems on GCP.
         highlights:
-          - "Building MCP servers and AI agents"
+          - "Building MCP servers and AI agents for L'Oreal's Agentic Studio"
           - "Production deployments on Google Cloud Platform"
 
       - company: Telecom Paris (ADASP Group)
@@ -59,7 +56,6 @@ cv:
         location: Paris, France
         start_date: 2025-05
         end_date: 2025-09
-        summary: Designed self-supervised distillation framework for audio foundation models.
         highlights:
           - "Benchmarked state-of-the-art audio encoders with multi-GPU (NVIDIA A100) distributed training"
           - "Built data workflows for AudioSet (~2M samples, 650-700 GB)"
@@ -71,7 +67,6 @@ cv:
         location: Berkeley, CA, USA
         start_date: 2024-03
         end_date: 2024-12
-        summary: Built end-to-end predictive ML pipelines for urban traffic emission modeling.
         highlights:
           - "Processed 272M-row spatio-temporal dataset across U.S. urban census tracts"
           - "Built ML pipelines with LightGBM, CatBoost, XGBoost, neural networks"
@@ -83,39 +78,34 @@ cv:
         location: Lyon, France
         start_date: 2022-09
         end_date: 2023-01
-        summary: Developed real-time localization system for autonomous EV charging rover.
         highlights:
           - "ML models and OpenCV-based template matching for visual navigation"
           - "End-to-end data engineering pipeline with 100+ samples"
           - "Full MLOps workflows with Git, Docker, and CI/CD"
 
     Awards:
-      - title: LBNL Excellence Fellowship
+      - label: LBNL Excellence Fellowship
+        details: "Awarded $10,800 research fellowship for outstanding quantitative research contributions in the Energy Analysis & Environmental Impacts Division at Lawrence Berkeley National Laboratory."
         date: 2024-03
-        awarder: Lawrence Berkeley National Laboratory
-        summary: "Awarded $10,800 research fellowship for outstanding quantitative research contributions in the Energy Analysis & Environmental Impacts Division."
 
     Skills:
-      - name: Programming
-        icon: fa-solid fa-code
-        keywords: "Python, C++, NumPy, Pandas, Scikit-learn, PyTorch, PyTorch Lightning, HuggingFace, GPU Training"
+      - label: Programming
+        details: "Python, C++, NumPy, Pandas, Scikit-learn, PyTorch, PyTorch Lightning, HuggingFace, GPU Training"
 
-      - name: MLOps & Deployment
-        icon: fa-solid fa-gears
-        keywords: "Git, Linux, Docker, FastAPI, Airflow, Spark, MLflow, GitHub Actions, Kubernetes, GCP, AWS"
+      - label: MLOps & Deployment
+        details: "Git, Linux, Docker, FastAPI, Airflow, Spark, MLflow, GitHub Actions, Kubernetes, GCP, AWS"
 
-      - name: Data Engineering
-        icon: fa-solid fa-database
-        keywords: "SQL, NoSQL, BigQuery, PostgreSQL, MongoDB, ETL pipelines, Data Warehousing"
+      - label: Data Engineering
+        details: "SQL, NoSQL, BigQuery, PostgreSQL, MongoDB, ETL pipelines, Data Warehousing"
 
     Languages:
-      - name: Arabic
-        summary: "Bilingual"
-      - name: French
-        summary: "Bilingual"
-      - name: English
-        summary: "C1"
-      - name: Spanish
-        summary: "B2"
-      - name: German
-        summary: "A2"
+      - label: Arabic
+        details: Bilingual
+      - label: French
+        details: Bilingual
+      - label: English
+        details: C1
+      - label: Spanish
+        details: B2
+      - label: German
+        details: A2
